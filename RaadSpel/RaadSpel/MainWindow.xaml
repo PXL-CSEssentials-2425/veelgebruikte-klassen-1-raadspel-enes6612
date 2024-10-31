@@ -1,0 +1,19 @@
+﻿<Window x:Class="RaadSpel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RaadSpel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Geef een getal tussen 1 en 100:" HorizontalAlignment="Left" Height="35" Margin="136,120,0,0" VerticalAlignment="Top" Width="244" FontSize="17"/>
+        <TextBox x:Name="numberTextBox" HorizontalAlignment="Left" Height="35" Margin="400,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="92" FontSize="20"/>
+        <TextBox x:Name="output1TextBox" HorizontalAlignment="Left" Height="35" Margin="136,182,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="356" FontSize="17" IsEnabled="False"/>
+        <TextBox x:Name="output2TextBox" HorizontalAlignment="Left" Height="39" Margin="136,251,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="356" FontSize="17" IsEnabled="False"/>
+        <Button x:Name="evaluatieButton" Content="Evalueer" HorizontalAlignment="Left" Height="35" Margin="558,120,0,0" VerticalAlignment="Top" Width="129" FontSize="20" Click="evaluatieButton_Click"/>
+        <Button x:Name="newButton" Content="Nieuw" HorizontalAlignment="Left" Height="39" Margin="558,0,0,0" VerticalAlignment="Center" Width="129" FontSize="20" Click="newButton_Click"/>
+        <Button x:Name="endButton" Content="Einde" HorizontalAlignment="Left" Height="44" Margin="558,270,0,0" VerticalAlignment="Top" Width="129" FontSize="20" Click="endButton_Click"/>
+
+    </Grid>
+</Window>
